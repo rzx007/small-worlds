@@ -1,0 +1,28 @@
+{
+  "name": "small-worlds",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "typecheck:tests": "tsc -p tsconfig.tests.json",
+    "test:unit": "playwright test -c tests/unit.config.ts",
+    "test:browser": "playwright test",
+    "test:baseline:collect": "playwright test --grep baseline",
+    "test:perf": "node tests/support/perf-blocked.mjs",
+    "test:state": "node tests/support/state-check.mjs",
+    "test:production-graph": "node tests/support/production-graph.mjs",
+    "test:production-equivalence": "node tests/support/production-equivalence.mjs",
+    "test:matrix": "node tests/support/matrix.mjs",
+    "test:perf:sample": "node tests/support/perf-sample.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@types/node": "24.10.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.0"
+  }
+}

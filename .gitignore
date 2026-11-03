@@ -1,0 +1,7 @@
+﻿node_modules/
+dist/
+workspace-backups/
+test-artifacts/
+playwright-report/
+test-results/
+.vykor/

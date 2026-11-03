@@ -1,0 +1,170 @@
+{
+  "command": "npm run build && npm run test:baseline:collect",
+  "browser": "156.0.8078.4",
+  "node": "v24.18.1",
+  "platform": "win32",
+  "arch": "x64",
+  "sourceManifestSha256": "705328E191DB87B34F1037F3E1977B7ED3AD3BB118EE0B1492645D13830CC05B",
+  "frames": [
+    {
+      "name": "360-dpr1-scene1.rgba",
+      "scene": 1,
+      "initial": "reduced motion; 4 seconds",
+      "events": [
+        {
+          "key": "Digit1",
+          "pointer": "click logical (172,312)",
+          "raf": 16
+        }
+      ],
+      "progress": 0.502497,
+      "viewport": {
+        "width": 360,
+        "height": 330,
+        "deviceScaleFactor": 1
+      },
+      "width": 360,
+      "height": 330,
+      "bytes": 475200,
+      "sha256": "6d97af8e1cf880ab4e6c9619ebdd868c96166b4776b2017fecf02f8209e9115a"
+    },
+    {
+      "name": "360-dpr1-scene2.rgba",
+      "scene": 2,
+      "initial": "reduced motion; 4 seconds",
+      "events": [
+        {
+          "key": "Digit1",
+          "pointer": "click logical (172,312)",
+          "raf": 16
+        },
+        {
+          "key": "Digit2",
+          "pointer": "click logical (172,312)",
+          "raf": 32
+        }
+      ],
+      "progress": 0.502497,
+      "viewport": {
+        "width": 360,
+        "height": 330,
+        "deviceScaleFactor": 1
+      },
+      "width": 360,
+      "height": 330,
+      "bytes": 475200,
+      "sha256": "192a1859a43945f71e61ceabf6e8abc430836b1027c3610067fe3d4abdc9f451"
+    },
+    {
+      "name": "360-dpr1-scene3.rgba",
+      "scene": 3,
+      "initial": "reduced motion; 4 seconds",
+      "events": [
+        {
+          "key": "Digit1",
+          "pointer": "click logical (172,312)",
+          "raf": 16
+        },
+        {
+          "key": "Digit2",
+          "pointer": "click logical (172,312)",
+          "raf": 32
+        },
+        {
+          "key": "Digit3",
+          "pointer": "click logical (172,312)",
+          "raf": 48
+        }
+      ],
+      "progress": 0.502497,
+      "viewport": {
+        "width": 360,
+        "height": 330,
+        "deviceScaleFactor": 1
+      },
+      "width": 360,
+      "height": 330,
+      "bytes": 475200,
+      "sha256": "151d93d40379af775bdc9d2f3100ad9ee2c20745a0adf96cf80ca23e661a8a9b"
+    },
+    {
+      "name": "360-dpr1-scene4.rgba",
+      "scene": 4,
+      "initial": "reduced motion; 4 seconds",
+      "events": [
+        {
+          "key": "Digit1",
+          "pointer": "click logical (172,312)",
+          "raf": 16
+        },
+        {
+          "key": "Digit2",
+          "pointer": "click logical (172,312)",
+          "raf": 32
+        },
+        {
+          "key": "Digit3",
+          "pointer": "click logical (172,312)",
+          "raf": 48
+        },
+        {
+          "key": "Digit4",
+          "pointer": "click logical (172,312)",
+          "raf": 64
+        }
+      ],
+      "progress": 0.502497,
+      "viewport": {
+        "width": 360,
+        "height": 330,
+        "deviceScaleFactor": 1
+      },
+      "width": 360,
+      "height": 330,
+      "bytes": 475200,
+      "sha256": "aec78b7cae1a1db75b484c0527357074d6c700223617231e4cf7062857cf7098"
+    },
+    {
+      "name": "360-dpr1-scene5.rgba",
+      "scene": 5,
+      "initial": "reduced motion; 4 seconds",
+      "events": [
+        {
+          "key": "Digit1",
+          "pointer": "click logical (172,312)",
+          "raf": 16
+        },
+        {
+          "key": "Digit2",
+          "pointer": "click logical (172,312)",
+          "raf": 32
+        },
+        {
+          "key": "Digit3",
+          "pointer": "click logical (172,312)",
+          "raf": 48
+        },
+        {
+          "key": "Digit4",
+          "pointer": "click logical (172,312)",
+          "raf": 64
+        },
+        {
+          "key": "Digit5",
+          "pointer": "click logical (172,312)",
+          "raf": 80
+        }
+      ],
+      "progress": 0.502497,
+      "viewport": {
+        "width": 360,
+        "height": 330,
+        "deviceScaleFactor": 1
+      },
+      "width": 360,
+      "height": 330,
+      "bytes": 475200,
+      "sha256": "c0b56067bee8ec1fec79e988a33a62f2c272adf8a5b79fe9d9c3a83f73b515e4"
+    }
+  ]
+}
